@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="png" sizes="32x32" href="images/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>BlogSpace</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo-container">
+        <h1>BlogSpace</h1>
+        <img
+          id="blog-icon"
+          src="images/blog-icon.png"
+          alt="A stylish crocodile themed blog space icon"
+        />
+      </div>
+      <img
+        id="new-post-icon"
+        src="images/new_post-icon.png"
+        alt="New post icon"
+      />
+    </nav>
+
+    <form id="new-post">
+      <label for="post-title">Title:</label>
+      <input type="text" id="post-title" aria-label="Post Title" />
+      <label for="post-body">Body:</label>
+      <textarea id="post-body" aria-label="Post Body"></textarea>
+      <button type="submit">Post</button>
+    </form>
+
+    <div id="blog-list"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
