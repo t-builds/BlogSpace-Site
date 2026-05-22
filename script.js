@@ -82,6 +82,5 @@ function putRequest() {
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   toggleNewPost();
-
   putRequest();
 });
