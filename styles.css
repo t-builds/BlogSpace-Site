@@ -144,7 +144,7 @@ textarea:focus {
   background-color: whitesmoke;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 380px) {
   h1 {
     font-size: 2.25rem;
   }
